@@ -2,11 +2,11 @@ from random import randint
 import sys
 import os
 
-sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=32, cols=80))
+#sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=32, cols=80))
 #os.system( [ 'clear', 'cls' ][ os.name == 'nt' ] )
 os.system("clear")
 def word_generator():
-	f = open('/Users/paulnichols/Dropbox/HackerSchool/Cryptogram/2of12.txt')
+	f = open('hangmandictionary.txt')
 	new_dictionary = []
 	for word in f:
 		word = word[:-2]

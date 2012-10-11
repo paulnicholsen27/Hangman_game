@@ -2,8 +2,7 @@ from random import randint
 import sys
 import os
 
-#sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=32, cols=80))
-#os.system( [ 'clear', 'cls' ][ os.name == 'nt' ] )
+sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=32, cols=80))
 os.system("clear")
 def word_generator():
 	f = open('hangmandictionary.txt')

@@ -6,7 +6,7 @@ sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=32, cols=80))
 os.system("clear")
 def generate_word():
 	f = open('hangmandictionary.txt')
-    new_dictionary = [word[:-2] for word in f if 5 < len(word) < 11]
+	new_dictionary = [word[:-2] for word in f if 5 < len(word) < 11]
 	f.close()
 	secret_word = new_dictionary[randint(0,len(new_dictionary)-1)]
 	word_length = len(secret_word)

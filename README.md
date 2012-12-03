@@ -1,1 +1,3 @@
-This is a hangman game designed to play hangman.
+This was one of my earliest Hacker School projects: a simple terminal-based interface to play Hangman against the computer.  Note the brilliant ASCII art, of which I am clearly the next Picasso.
+
+The game randomly selects a word between 6-10 characters long from a dictionary of common words that I found online.  At the time, I didn't know about README files, so now that I'm adding this I have no recollection of where I found that dictionary.  My humblest apologies: if you recognize your words, please let me know and I will be happy to give you credit, especially as I remember it being somewhat of a pain to find a dictionary that was usable and didn't contain crazy Scrabble words.  So whoever you are, anonymous dictionary-writer, I thank you.  
